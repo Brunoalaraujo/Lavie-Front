@@ -1,0 +1,65 @@
+:root {
+    --main-color: #2da8eb;
+    --border: #726e6e;
+    --white: #ffffff;
+    --text-color: #0288d1;
+}
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+.banner-top {
+    margin-top: 4rem;
+    color: var(--main-color);
+    height: 25rem;
+    align-items: center;
+}
+
+.container-img {
+    padding-right: 1rem;
+}
+
+#logo {
+    height: 120px;
+    width: 300px;
+}
+
+.welcome {
+    color: var(--text-color);
+    margin-top: 3rem;
+}
+
+.welcome > h2 {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.form {
+    background: var(--main-color);
+    width: 375px;
+    border-radius: 25px 25px 0 0;
+}
+
+.label{
+    color: var(--border);
+    font-weight: bolder;
+    font-size: 0.85rem;
+}
+
+input[type=email], input[type=password] {
+    background-color: var(--main-color);
+    border: 1px solid var(--border);
+    border-radius: 5px;
+}
+
+.criar-conta {
+    font-size: 0.85rem;    
+    font-weight: bold;
+}
+
+.link-criar-conta {
+    color: var(--white);
+    
+}
+
