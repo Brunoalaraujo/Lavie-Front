@@ -1,0 +1,55 @@
+:root {
+    --main-color: #2da8eb;
+    --border: #726e6e;
+    --white: #ffffff;
+    --text-color: #0288d1;
+}
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+.header {
+    background-color: var(--main-color);
+    height: 13rem;
+    text-align: center;
+    padding-top: 2.5rem;
+}
+
+.main-text {
+    font-size: 2.5rem;
+    color: var(--white);
+}
+
+.secondary-text {
+    padding-top: 0.2rem;
+    font-size: 1rem;
+}
+
+.link-index > a {
+    font-weight: bold;
+    text-decoration: underline;
+    color: #004FFF;
+}
+
+.form {
+    padding-top: 2.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;   
+    margin-bottom: -5rem;
+}
+
+.label {
+    margin-top: 0.75rem;
+    margin-bottom: 0.75rem;
+}
+
+.button-createAccount {
+    margin-top: 3.25rem;
+}
+
+.btn {
+    border-radius: 10px;
+    color: black;
+    font-weight: 500;
+}
